@@ -1,0 +1,13 @@
+# Firebase credentials
+firebase_key.json
+
+# Videos
+*.mp4
+
+# Python cache
+__pycache__/
+_pycache__/
+*.pyc
+
+# Environment files
+.env
