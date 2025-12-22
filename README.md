@@ -39,15 +39,16 @@ An AI-powered computer vision system that automatically detects unauthorized hum
 ```
 intrusion-detection-system/
 │
-├── main.py                 # Main intrusion detection pipeline
-├── roi.py                  # Restricted zone (ROI) selection
-├── firebase_logger.py      # Firebase Firestore logging
-├── alert_email.py          # Email alert service
-├── snapshots/              # Saved intrusion snapshots (local)
-├── videos/                 # Demo video input (local only)
-├── yolov8n.pt              # YOLOv8 model weights
+├── src/
+│   ├── main.py            # Main intrusion detection pipeline
+│   ├── roi.py             # Restricted zone (ROI) selection
+│   ├── firebase_logger.py # Firebase Firestore logging
+│   └── alert_email.py     # Email alert service
+│
+├── snapshots/             # Saved intrusion snapshots (local)
 ├── .gitignore
 └── README.md
+
 ```
 
 ---
