@@ -1,10 +1,10 @@
-# 🚨 AI-Based Restricted Zone Intrusion Detection System
+# AI-Based Restricted Zone Intrusion Detection System
 
 An AI-powered computer vision system that automatically detects unauthorized human presence inside restricted zones using video feeds. The system captures visual evidence, logs intrusion events to the cloud, and sends real-time alerts—eliminating the need for continuous manual CCTV monitoring.
 
 ---
 
-## 🔍 Key Features
+## Key Features
 - AI-based human detection using YOLO  
 - Restricted Zone (ROI) based intrusion detection  
 - False-alarm reduction using persistence logic  
@@ -15,7 +15,7 @@ An AI-powered computer vision system that automatically detects unauthorized hum
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python**
 - **OpenCV**
 - **Ultralytics YOLOv8**
@@ -24,7 +24,7 @@ An AI-powered computer vision system that automatically detects unauthorized hum
 
 ---
 
-## 🧠 How It Works
+## How It Works
 1. Video feed is processed frame-by-frame  
 2. AI model detects human presence  
 3. Restricted zone (ROI) validation is applied  
@@ -35,7 +35,7 @@ An AI-powered computer vision system that automatically detects unauthorized hum
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 intrusion-detection-system/
 │
@@ -52,7 +52,7 @@ intrusion-detection-system/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -81,7 +81,6 @@ firebase_key.json
 ```
 5. Place it in the project root
 
-⚠️ **Do NOT upload this file to GitHub**
 
 ---
 
@@ -106,14 +105,14 @@ python main.py
 
 ---
 
-## 📸 Demo & Testing
+## Demo & Testing
 - Works with any surveillance-style video feed  
 - Demo video used only for demonstration purposes  
 - No proprietary footage included in the repository  
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 - Live CCTV integration  
 - Web-based monitoring dashboard  
 - SMS / WhatsApp alerts  
@@ -121,14 +120,14 @@ python main.py
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project is intended for educational and demonstration purposes only. Any video footage used in demos is publicly available or simulated and is not redistributed.
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Yax Patel**  
-First Year CSE, Nirma University
+B.Tech CSE, Nirma University
 
 ---
 
@@ -137,6 +136,6 @@ This project is provided for educational use under open-source terms.
 
 ---
 
-### ✅ FINAL NOTE
+### FINAL NOTE
 - No videos or credentials are included in this repository  
 - Firebase key must be added locally to run the system  
