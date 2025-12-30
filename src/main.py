@@ -9,7 +9,7 @@ from firebase_logger import log_intrusion_event
 from alert_email import send_intrusion_alert
 
 # ---------------- CONFIG ----------------
-VIDEO_PATH = "videos/main.mp4"  # Set to 0 for Webcam
+VIDEO_PATH = "videos/final.mp4"  # Set to 0 for Webcam
 
 CONFIRMATION_FRAMES = 10      # Frames to confirm it is a person (Sensitivity)
 PATIENCE_FRAMES = 20          # Frames to wait before declaring "Intruder Gone" (Prevents flickering)
